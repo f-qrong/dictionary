@@ -1,0 +1,25 @@
+# Dictionary Exercise
+# 1. Create a dictionary
+favorite_colors = {'Ivan': 'Red', 'Kabi': 'Blue', 'Michelle': 'Green'}
+
+# 2. Print the dictionary
+print(favorite_colors)
+
+# 3. Add a new person and their favorite color
+favorite_colors['David'] = 'Yellow'
+print(favorite_colors)
+
+# 4. Update a favorite color
+favorite_colors['Kabi'] = 'purple'
+print(favorite_colors)
+
+# 5. Remove a person
+remove_person = favorite_colors.pop('Ivan')
+print(favorite_colors)
+
+# 6. Check if a person is in the dictionary
+if "Michelle" in favorite_colors:
+    print("Michelle is in the dictionary")
+else:
+    print("Michelle is not in the dictionary")
+
